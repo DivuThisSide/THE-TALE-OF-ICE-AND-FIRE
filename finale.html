@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice vs Fire Game</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #startMenu {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            font-size:20px
+        }
+    </style>
+</head>
+<body>
+    <div id="startMenu">
+        <h2>Ice vs Fire Game</h2>
+        <input type="text" id="username" placeholder="Enter username (1-5 letters)" maxlength="5">
+        <br><br>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <br><br>
+        <button id="startButton">Start Game</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="for_me.js"></script>
+    <script src="for_me.css"></script>
+</body>
+</html>
