@@ -1,4 +1,4 @@
-// Game Constants
+// Game Constant
 const AI_STATES = {
     WANDERING: 'wandering',
     RESCUING: 'rescuing'
